@@ -1,0 +1,14 @@
+#Example
+#input : 20 40
+#output:40
+
+def greatest_of_two(num1,num2):
+    greatest_num  =  (num1 if num1> num2 else num2)
+    return greatest_num
+
+a = int(input("Enter num1: "))
+b = int(input("Enter num2: "))
+ans = greatest_of_two(a,b)
+print()
+print(f"The greatest number between {a},{b} is: {ans}")
+
