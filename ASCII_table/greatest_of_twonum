@@ -12,3 +12,7 @@ ans = greatest_of_two(a,b)
 print()
 print(f"The greatest number between {a},{b} is: {ans}")
 
+# second approach
+a = 10
+b = 20
+print("max number is:",max(a,b))
