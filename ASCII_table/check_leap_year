@@ -1,4 +1,6 @@
-year = 2028
+import calendar
+
+year = 2027
 
 
 # if year % 4 == 0 and year % 100 !=0:
@@ -14,4 +16,9 @@ year = 2028
 #     print("its a normal year")
 
 # ternary operator 
-print("its a leap year.") if year%4==0 and year%100 !=0 or year%400 == 0 else print("its a normal year.") 
+# print("its a leap year.") if year%4==0 and year%100 !=0 or year%400 == 0 else print("its a normal year.") 
+
+# calendar module
+
+print("its a leap year.") if calendar.isleap(year) else print("its a normal year.")
+    
