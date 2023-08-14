@@ -1,11 +1,18 @@
 def check_prime_num(num):
-    for i in range(2, num):
-        if i % num == 0:
-            print(i,"its a prime number")
+    if num == 1: # check for 1 in input 
+         print(num,"is not prime nor a composite number") 
+    else: 
+        for i in range(2, num): # iterate  from 2 to nearest number of given input
+            if num % i == 0: # if num is compeletly divisible by 
+                 print(num,'is not a prime number.')
+                 break
+            
         else:
-            print(i,"its not a prime number")
+            print(num,"is a prime number.")
+
+            
+        
 
 
 
-
-check_prime_num(9)
+check_prime_num(1)
