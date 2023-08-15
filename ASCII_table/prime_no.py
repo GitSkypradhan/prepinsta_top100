@@ -11,8 +11,5 @@ def check_prime_num(num):
             print(num,"is a prime number.")
 
             
-        
-
-
-
-check_prime_num(1)
+num = int(input("Enter a postive num:"))
+check_prime_num(num)
