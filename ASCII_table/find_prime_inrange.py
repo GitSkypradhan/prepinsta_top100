@@ -1,8 +1,7 @@
  
-low_limit = int(input('Enter number to start: '))
-high_limit = int(input('Enter number to end: '))
- 
-for i in range(low_limit,high_limit):
-        print(i)   
-        for j in range(i):
-                print("working on it")
+low_limit,high_limit = input('Enter number to (start,end): ').split(',')
+prime = []
+
+for i in range(int(low_limit),int(high_limit)):
+    for j in range(2,i):
+        print(j,end='')
