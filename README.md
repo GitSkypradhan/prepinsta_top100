@@ -1,2 +1,2 @@
-# prepinst_top100
-Sovled Prepinsta top 100 codes in python
+#solvePython_top100
+From basic to advance practice problems in python.
